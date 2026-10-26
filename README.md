@@ -2,11 +2,13 @@
 
 A Decky Loader plugin for the Steam Deck that copies games and non-Steam titles between drives — instead of Valve's move-only option.
 
+> **Note:** After copying a Steam game, **restart Steam** (or for an external drive, eject and re-insert it) before the game appears in your library.
+
 ## Features
 
 ### Steam Games
 
-- **Copy via context menu** — Focus any installed game, press **Start → Copy To... →** pick a destination drive. The full game folder and `appmanifest_<AppID>.acf` are copied so Steam sees it on the destination when mounted.
+- **Copy via context menu** — Focus any installed game, press **Start → Copy To... →** pick a destination drive. The full game folder and `appmanifest_<AppID>.acf` are copied so Steam sees it on the destination when mounted (after a Steam restart).
 - **Bulk copy from the Quick Access panel** — Open CopyDeck from the Quick Access Menu, select multiple games, press **Copy selected to...**, and choose a drive. Everything runs in a background queue with per-job progress bars.
 - **Optional extras per copy** — Choose to also copy Workshop content, Proton compatdata (saves / prefix), and shader cache alongside the game files.
 - **Conflict handling** — If files already exist at the destination you get a prompt to skip duplicates or overwrite all.
