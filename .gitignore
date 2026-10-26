@@ -1,0 +1,29 @@
+# Dependencies & build
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.pnpm-store/
+
+# Local deploy / packaging artifacts (release zip is built on demand)
+deploy/
+*.zip
+!releases/*.zip
+
+# Editor / OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
+*.log
+
+# Local scratch / old builds
+OldFixes/
+CopyDeckBuilds.zip
+Text File.txt
+copydeck@0.1.0
+/rollup
+.env
+.env.*
+copydeck@0.1.0
+/rollup

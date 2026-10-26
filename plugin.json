@@ -1,0 +1,11 @@
+{
+  "name": "CopyDeck",
+  "author": "CopyTo",
+  "flags": [],
+  "api_version": 1,
+  "publish": {
+    "tags": ["utility", "storage", "games"],
+    "description": "Copy games between drives instead of move. Use 'Copy To' from the game menu or select multiple in the plugin panel.",
+    "image": ""
+  }
+}
